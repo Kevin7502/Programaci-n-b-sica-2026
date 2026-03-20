@@ -1,0 +1,33 @@
+#ALGORITMO
+#1 PEDIR NOTA 1 AL USUARIO
+#2 PEDIR NOTA 2 AL USUARIO
+#3 PEDIR NOTA 3 AL USUARIO
+#4 CALCULAR SUMA DE LAS NOTAS
+#5 DIVIDIR EL RESULTADO DE LA SUMA ENTRE 3
+#6 MOSTRAR LAS NOTAS INGRESADAS
+#7 MOSTRAR EL RESULTADO DE LA OPERACION
+#8 COMPARAR SI LA NOTA ES MAYOR DE 3.0
+
+#PSEUDOCODIGO
+#INICIO
+ #LEER nota1
+ #LEER nota2
+ #LEER nota3
+ #promedio <- (nota1 + nota2 + nota3) / 3
+ #ESCRIBIR "Nota 1:", nota1
+ #ESCRIBIR "Nota 2:", nota2
+ #ESCRIBIR "Nota 3:", nota3
+ #ESCRIBIR "Promedio:", promedio
+ #aprobo <- promedio >= 3.0
+ #ESCRIBIR "Aprobo con nota >= 3.0?: ", promedio>=3
+#FIN
+
+nota1 = float(input("Ingrese nota 1: "))
+nota2 = float(input("Ingrese nota 2: "))
+nota3 = float(input("Ingrese nota 3: "))
+promedio = (nota1 + nota2 + nota3) / 3
+print("Nota 1:", nota1)
+print("Nota 2:", nota2)
+print("Nota 3:", nota3)
+print("Promedio:", promedio)
+print("Aprobo con nota >= 3.0?:", promedio >= 3.0)
