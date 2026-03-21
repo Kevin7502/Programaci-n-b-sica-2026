@@ -1,0 +1,32 @@
+#ALGORITMO
+#1 Pedir el nombre del usuario
+#2 Pedir el peso en kilogramos
+#3 Pedir la altura en metros
+#4 Calcular el IMC usando la fórmula: peso / (altura × altura).
+#5 Mostrar el nombre, peso, altura y el IMC calculado
+#6 Comparar si el IMC está entre 18.5 y 24.9
+#7 Mostrar si está en el rango normal
+
+#PSEUDOCODIGO
+#INICIO
+#LEER nombre
+#LEER peso
+#LEER altura
+#imc <- peso / (altura * altura)
+#ESCRIBIR "Nombre:", nombre
+#ESCRIBIR "Peso:", peso
+#ESCRIBIR "Altura:", altura
+#ESCRIBIR "IMC:", imc
+#normal <- imc >= 18.5
+#ESCRIBIR "IMC en rango normal (18.5 - 24.9)?: ", 18.5 <= imc <= 24.9
+#FIN
+
+nombre = input("Ingrese su nombre: ")
+peso = float(input("Ingrese su peso en kg: "))
+altura = float(input("Ingrese su altura en metros: "))
+imc = peso / (altura * altura)
+print("Nombre:", nombre)
+print("Peso:", peso, "kg")
+print("Altura:", altura, "m")
+print("IMC:", imc)
+print("IMC en rango normal (18.5 - 24.9)?:", 18.5 <= imc <= 24.9)
