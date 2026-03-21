@@ -1,0 +1,19 @@
+#ALGORITMO
+#1 PEDIR LA EDAD AL USUARIO
+#2 SI LA EDAD ES >18 PUEDE INGRESAR
+#3 SI LA EDAD ES <18 NO PUEDE INGRESAR
+
+#PSEUDOCODIGO
+#INCIO
+ #LEER edad
+ #Si edad >= 18 Entonces
+ #ESCRIBIR "Puedes ingresar"
+ #Si no
+ #Escribir "No puedes ingresar"
+#FIN
+
+edad = int(input("Ingrese su edad: ")) 
+if edad >= 18:
+    print("Puedes ingresar a la discoteca")
+else:
+    print("No puedes ingresar, eres menor de edad")
